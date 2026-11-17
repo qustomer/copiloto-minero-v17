@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
 
-from engines.ingestion_engine import run_ingestion_pipeline
-from engines.scoring_engine import run_scoring_pipeline
-from engines.warroom_engine import apply_solutions_and_recalculate
-from engines.pricing_engine import calculate_pricing
-from engines.proposal_pdf_generator import generate_dual_reports
+from ingestion_engine import run_ingestion_pipeline
+from scoring_engine import run_scoring_pipeline
+from warroom_engine import apply_solutions_and_recalculate
+from pricing_engine import calculate_pricing
+from proposal_pdf_generator import generate_dual_reports
 
 st.set_page_config(layout="wide")
 st.title("Copiloto Minero v17")
