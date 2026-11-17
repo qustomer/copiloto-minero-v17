@@ -17,5 +17,6 @@ def run_scoring_pipeline(df_docs):
         "Friccion": round(friccion,1),
         "ISP": round(ISP,1),
         "ICG": round(ICG,1),
+        "Sentimiento": "Neutro",
         "n_docs": n_docs
     }
